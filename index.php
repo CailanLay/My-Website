@@ -39,6 +39,9 @@
               <li clas"nav-item">
                 <a class="nav-link" href="#links">Links</a> <!-- links to the education tag -->
               </li>
+              <li clas"nav-item">
+                <a class="nav-link" href="#portfolio">Projects</a> <!-- links to the education tag -->
+              </li>
             </ul>
           </div>
       </nav>
@@ -54,7 +57,7 @@
       <div class="caption text-center">
         <h1>Cailan Lay</h1>
         <h3>Web and Software Developer</h3>
-        <a class="btn btn-outline-light btn-lg" href="#about">Education</a>
+        <a class="btn btn-outline-light btn-lg" href="#about">about me</a>
       </div>
       <!-- End landing page section -->
     </div>
@@ -132,6 +135,7 @@
         <div class="narrow">
           <div class="col-12 text-center">
             <h3 class="heading">About Me</h3>
+            <div class="heading-underline"></div>
           </div>
         <div class="row"><!-- strart of row -->
           <div class="me">
@@ -207,7 +211,7 @@
     ?>
 
     <!-- Start Contact Section -->
-    <div id="contact" class="offset container contact-form">
+    <div id="contact" class="offset container contact-form ">
       <div class="narrow">
       <div class="col-12 text-center">
         <h3 class="heading">Contact</h3>
@@ -248,7 +252,6 @@
 
     <!-- Start of links section -->
     <div id="links" class="offset">
-
       <div class="fixed-background"><!-- Start of fixed background -->
         <div class="row dark text-center"> <!-- Start of row dark -->
           <div class="col-12">
@@ -280,6 +283,55 @@
       </div><!-- End of fixed background -->
     </div>
     <!-- End of links section -->
+
+    <!-- Start of portfolio section -->
+    <div id="portfolio" class="offset">
+      <div class="narrow text-center">
+
+        <div class="title col-12">
+          <h3 class="portfolio-heading">Projects</h3>
+          <div class="portfolio heading-underline"></div>
+        </div>
+
+        <div class="row text-center"> <!-- Start of row -->
+          <div class="col-md-6">
+            <div class="project-image">
+              <img src="portfolio/MainScreen.jpg" alt="image of java desctop project">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="project-description">
+              <h6>Travel Experts Desktop App</h6>
+              <p>Languages and Tools: Java, JavaFX</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type
+              specimen book. It has survived not only five centuries, but also the leap</p>
+            </div>
+          </div>
+        </div> <!-- End of row -->
+
+        <div class="row text-center"> <!-- Start of row -->
+          <div class="col-md-6">
+            <div class="project-image">
+              <img src="portfolio/Team-3-index.png" alt="image of web project">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="project-description">
+              <h6>Travel Experts Desktop App</h6>
+              <p>Languages and Tools: HTML, CSS, PHP</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              when an unknown printer took a galley of type and scrambled it to make a type
+              specimen book. It has survived not only five centuries, but also the leap</p>
+            </div>
+          </div>
+        </div> <!-- End of row -->
+
+      </div>
+    </div>
+    <!-- Start of portfolio section -->
 
     <div class="offset">
       <footer>

@@ -126,7 +126,6 @@ h3.links-heading {
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   color: white;
-
 }
 .heading-underline {
   width: 3rem;
@@ -141,6 +140,29 @@ h3.links-heading {
   font-size: 1.3rem;
   text-transform: uppercase;
   color: white;
+}
+
+/*-- portfolio styling --*/
+.project-image img {
+  width: 60%;
+  height: auto;
+}
+.project-description h6 {
+  font-weight: bold;
+}
+h3.portfolio-heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+/*-- footer styling --*/
+#footer {
+  margin-bottom: 0;
+  padding: 1rem;
+}
+footer {
+  background-color: #ECEFF1;
 }
 
 /*-- Media Queries --*/
@@ -160,16 +182,12 @@ h3.links-heading {
   }
 }
 
-/*-- footer styling --*/
-.email-footer {
-  display: inline-block;
-}
 /*============= COURSE SECTION =============*/
 
 .narrow {
   width: 75%;
   margin: 1.5rem auto;
-  padding-top: 2rem;
+
 }
 .narrow h1 {
     font-size: 2.4rem;
@@ -191,14 +209,6 @@ h3.links-heading {
   color: white;
 }
 
-/*-- footer styling --*/
-#footer {
-  margin-bottom: 0;
-  padding: 1rem;
-}
-footer {
-  background-color: #ECEFF1;
-}
 
 /*============ BOOTSTRAP BREAK POINTS:
 
