@@ -88,6 +88,9 @@ body {
 }
 
 /*-- About Me styling --*/
+.heading h3 {
+
+}
 .me img {
   width: 50%;
   border-radius: 50%;
@@ -109,16 +112,21 @@ body {
 }
 
 /*-- Links styling --*/
-.jumbotron {
-  margin: 0;
-  padding: 2rem 0 3rem;
-  border-radius: 0;
+.fixed {
+  background-image: url(img/waterandrocks.jpg);
+  background-position: center;
+  z-index: -1;
 }
-h3.heading {
+.dark {
+  background-color: rgba(0,0,0,0.75);
+}
+h3.links-heading {
   font-size: 1.9rem;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 1.9rem;
+  margin-bottom: 1.5rem;
+  color: white;
+
 }
 .heading-underline {
   width: 3rem;
@@ -132,6 +140,7 @@ h3.heading {
 .link h3 {
   font-size: 1.3rem;
   text-transform: uppercase;
+  color: white;
 }
 
 /*-- Media Queries --*/

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css"> <!-- Required for a bootstrap website -->
     <link rel="stylesheet" href="css/fixed.css"> <!-- Keeps the fixed background on mobile -->
     <link rel="stylesheet" href="style.css">
+    <script src="js/jquery-3.4.1.min.js"></script> <!-- Used to run the bootstrap framework -->
+    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> <!-- link for the icons -->
   </head>
   <body data-spy="scroll" data-target="#navbarResponsive">
 
@@ -202,9 +205,10 @@
       }
     }
     ?>
-    
+
     <!-- Start Contact Section -->
     <div id="contact" class="offset container contact-form">
+      <div class="narrow">
       <div class="col-12 text-center">
         <h3 class="heading">Contact</h3>
       </div>
@@ -238,51 +242,46 @@
           </form>
         </div>
       </div>
+      </div>
     </div>
     <!-- End Contact Section -->
 
+    <!-- Start of links section -->
     <div id="links" class="offset">
-      <!-- Start of jumbotron -->
-      <div class="jumbotron">
-        <div class="narrow text-center"> <!-- Start of narrow-->
 
+      <div class="fixed-background"><!-- Start of fixed background -->
+        <div class="row dark text-center"> <!-- Start of row dark -->
           <div class="col-12">
-            <h3 class="heading">Links</h3>
+            <h3 class="links-heading">Links</h3>
             <div class="heading-underline"></div>
           </div>
-
-          <div class="row text-center"> <!-- Start of row -->
-
-            <div class="col-md-4">
-              <div class="link">
-                <i class="fab fa-linkedin-in fa-4x" data-fa-transform="shrink-3 up-5"></i>
-                <h3>Linkedin</h3>
-              </div>
+          <div class="col-md-4">
+            <div class="link">
+              <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
+              <h3>Linkedin</h3>
             </div>
-
-            <div class="col-md-4">
-              <div class="Link">
-                <i class="fab fa-github fa-4x" data-fa-transform="shrink-3 up-5"></i>
-                <h3>Hithub</h3>
-              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="link">
+              <a href="https://github.com/llAnicll"><i class="fab fa-github fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
+              <h3>Github</h3>
             </div>
-
-            <div class="col-md-4">
-              <div class="Link">
-                <i class="fas fa-at fa-4x" data-fa-transform="shrink-3 up-5"></i>
-                <h3>Email</h3>
-              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="link">
+              <a class="nav-link" href="#contact"><i class="fas fa-at fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
+              <h3>Email</h3>
             </div>
-
-          </div> <!-- End of the row -->
-
-        </div> <!-- End of narrow -->
-      </div>   <!-- End Jumbotron -->
+          </div>
+        </div> <!-- Start of row dark -->
+        <div class="fixed-wrap">
+          <div class="fixed"></div>
+        </div>
+      </div><!-- End of fixed background -->
     </div>
+    <!-- End of links section -->
 
-    <script src="js/jquery-3.4.1.min.js"></script> <!-- Used to run the bootstrap framework -->
-    <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
-    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script> <!-- link for the icons -->
+
 
   </body>
 </html>
