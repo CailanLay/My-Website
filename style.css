@@ -159,6 +159,11 @@ h3.links-heading {
     font-size: 1rem;
   }
 }
+
+/*-- footer styling --*/
+.email-footer {
+  display: inline-block;
+}
 /*============= COURSE SECTION =============*/
 
 .narrow {
@@ -186,6 +191,14 @@ h3.links-heading {
   color: white;
 }
 
+/*-- footer styling --*/
+#footer {
+  margin-bottom: 0;
+  padding: 1rem;
+}
+footer {
+  background-color: #ECEFF1;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
 

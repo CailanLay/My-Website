@@ -68,13 +68,13 @@
           <div class="Education heading-underline"></div>
         </div>
         <div class="row text-center"> <!-- Start of row -->
-          <div class="col">
+          <div class="col-md-6">
             <div class="schooling">
               <h5>Southern Institute of Technology (Currently)</h5>
               <p>May 2019 - October 2019</p>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6">
             <div class="schooling">
               <h6>Certificate - Object Oriented Software Development</h6>
                 <p>
@@ -87,13 +87,13 @@
           </div>
         </div> <!-- End of the row -->
         <div class="row text-center"> <!-- Start of row -->
-          <div class="col">
+          <div class="col-md-6">
             <div class="schooling">
               <h5>University of Lethbridge</h5>
               <p>September 2017 - April 2019</p>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6">
             <div class="schooling">
               <h6>Coursework in Computer Science</h6>
                 <p>
@@ -104,13 +104,13 @@
           </div>
         </div> <!-- End of the row -->
         <div class="row text-center"> <!-- Start of row -->
-          <div class="col">
+          <div class="col-md-6">
             <div class="schooling">
               <h5>William Aberhart High School</h5>
               <p>September 2014 - June 2017</p>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-6">
             <div class="schooling">
               <h6>High School Diploma + Spanish Certificate</h6>
                 <p>
@@ -257,13 +257,13 @@
           </div>
           <div class="col-md-4">
             <div class="link">
-              <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"><i class="fab fa-linkedin-in fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
+              <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fab fa-linkedin-in fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
               <h3>Linkedin</h3>
             </div>
           </div>
           <div class="col-md-4">
             <div class="link">
-              <a href="https://github.com/llAnicll"><i class="fab fa-github fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
+              <a href="https://github.com/llAnicll" target="_blank"><i class="fab fa-github fa-4x" data-fa-transform="shrink-3 up-5"></i></a>
               <h3>Github</h3>
             </div>
           </div>
@@ -281,7 +281,20 @@
     </div>
     <!-- End of links section -->
 
+    <div class="offset">
+      <footer>
+        <div id="footer" class="row justify-content-center">
+          <div class="col-md-12 text-center">
+            <strong>Contact Info</strong>
+            <p>Cailanlay@gmail.com</p>
+            <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/llAnicll" target="_blank"><i class="fab  fa-github"></i></a>
+          </div>
+          &copy; Cailan Lay
 
+        </div>
+      </footer>
+    </div>
 
   </body>
 </html>
