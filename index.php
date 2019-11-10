@@ -134,23 +134,30 @@
       <div class="jumbotron">
         <div class="narrow">
           <div class="col-12 text-center">
-            <h3 class="heading">About Me</h3>
+            <h3 class="heading">My Story</h3>
             <div class="heading-underline"></div>
           </div>
         <div class="row"><!-- strart of row -->
           <div class="me">
             <div class="row">
               <div class="col-md-6">
-                <p><hr>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                  when an unknown printer took a galley of type and scrambled it to make a type
-                  specimen book. It has survived not only five centuries, but also the leap
-                  into electronic typesetting, remaining essentially unchanged. It was popularised
-                  in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
-                  and more recently with desktop publishing software like Aldus PageMaker including
-                  versions of Lorem Ipsum.
-                 <hr></p>
+                <p>
+                  <p>
+                    I am a junior web and software developer and SAIT Object-Oriented
+                    Software Development student (OOSD). I was first introduced to
+                    programming during my high school computer science classes, that is
+                    where my passion for technology grew. I then studied in a Bachelor of
+                    Computer Science Program at the University of Lethbridge for two years,
+                    learning C++ but wanted my studies to be more practical. I then found SAIT's
+                    OOSD program, this is where I started learning industry practices in web, desktop, mobile applications
+                    development, using languages and tools such as HTML, CSS, PHP, Java,
+                    C#, and SQL.
+                    <br><br>
+                    I've always taken a particular interest in new innovative technologies,
+                    whether it is the user interface that we interact with to how our devices
+                    manipulate and use that information. I passionate about web and
+                    software development and would love to have the oppurtunity to contribute to your next project.
+                  </p>
               </div>
                 <div class="col-md-6">
                   <img class="mx-auto d-block" src="img/Profile.jpg" alt="image of me">
@@ -303,10 +310,12 @@
             <div class="project-description">
               <h6>Travel Experts Desktop App</h6>
               <p>Languages and Tools: Java, JavaFX</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type
-              specimen book. It has survived not only five centuries, but also the leap</p>
+              <p>
+                Summary: <br>
+                This was part of a group project I focussed on as part of the Object-Oriented
+                software development program at SAIT. The goal for this was to create a desktop
+                application that would manipulate data in a database using Java and JavaFX.
+              </p>
             </div>
           </div>
         </div> <!-- End of row -->
@@ -321,10 +330,13 @@
             <div class="project-description">
               <h6>Travel Experts Desktop App</h6>
               <p>Languages and Tools: HTML, CSS, PHP</p>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to make a type
-              specimen book. It has survived not only five centuries, but also the leap</p>
+              <p>
+                Summary: <br>
+                A web application created as part of a group project at SAIT's Object-Oriented
+                Software Development program. The focus was to create a web application that was
+                able to sign up, and login customers, along with display information such as
+                travel packages available at the current time, and agent contact information.
+              </p>
             </div>
           </div>
         </div> <!-- End of row -->
