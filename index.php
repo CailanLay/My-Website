@@ -155,7 +155,7 @@
                     <br><br>
                     I've always taken a particular interest in new innovative technologies,
                     whether it is the user interface that we interact with to how our devices
-                    manipulate and use that information. I passionate about web and
+                    manipulate and use that information. I am passionate about web and
                     software development and would love to have the oppurtunity to contribute to your next project.
                   </p>
               </div>
